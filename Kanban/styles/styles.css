@@ -1,0 +1,111 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    max-width: 1200px;
+    /* Para limitar el ancho máximo */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#kanban {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Organizar en 5 columnas */
+    gap: 20px;
+    /* Espacio entre las columnas */
+}
+
+.column {
+    background-color: rgba(217, 234, 253, 0.8);
+    /* Fondo azul pálido con transparencia */
+    padding: 20px;
+    /* Fondo azul pálido para las columnas */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    /* Fondo blanco para las tarjetas */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Cambia el color de fondo de la tarjeta al pasar el cursor */
+}
+
+
+.delete-task {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.delete-task:hover {
+    background-color: darkred;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag {
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.tag i {
+    color: #333;
+}
+
+.front {
+    background-color: #FFD700;
+    /* Amarillo */
+}
+
+.back {
+    background-color: #00FF00;
+    /* Verde */
+}
+
+.device {
+    background-color: #1E90FF;
+    /* Azul */
+}

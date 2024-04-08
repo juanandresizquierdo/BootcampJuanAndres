@@ -1,0 +1,32 @@
+/* Estilos globales */
+body {
+    background-color: #f0f7fc;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #d9eafd;
+}
+
+.card h1 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la alineación de las tarjetas */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
