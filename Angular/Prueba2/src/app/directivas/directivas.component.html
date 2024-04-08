@@ -1,0 +1,18 @@
+<h1>Directivas</h1>
+
+<h2>Recorrer Listas: *ngFor</h2>
+
+<div *ngFor="let elemento of elementos">
+    <p>
+        {{elemento}}
+    </p>
+</div>
+
+<h2>Ocultar cosas según un criterio *ngIff</h2>
+<div *ngIf="(elementos.length >= 5)">
+    <p>Tengo al menos 5 elementos</p>
+</div>
+
+<div>
+    <p>Tengo más de 5 elementos</p>
+</div>

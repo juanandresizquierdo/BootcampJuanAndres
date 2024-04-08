@@ -1,0 +1,13 @@
+<h1>Lista de Articulos</h1>
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Nombre</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let articulo of articulos" (click)="navegarAFicha(articulo.id)">
+           <td>{{articulo.id}}</td>
+           <td>{{articulo.nombre}}</td> 
+        </tr>
+    </tbody>
+</table>

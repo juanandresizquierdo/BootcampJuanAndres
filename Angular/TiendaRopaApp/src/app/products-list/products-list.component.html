@@ -1,0 +1,14 @@
+<h2 class="text-center">Ropa Formal</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let producto of productos">
+    <a class="nav-link" (click)="navegarAFicha(producto.id)">
+      <div class="card h-100">
+        <img [src]="producto.imagen" class="card-img-top imagen-producto" [alt]="producto.nombre">
+        <div class="card-body">
+          <h5 class="card-title">{{ producto.nombre }}</h5>
+          <p class="card-text">{{ producto?.precio || 0 | precioEuros }}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
