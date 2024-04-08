@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Traje de Vestir Clásico",
+    "precio": 199.99,
+    "descripcion": "Traje de vestir clásico para ocasiones formales.",
+    "imagen": "assets/img/traje.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Camisa Formal Blanca",
+    "precio": 49.99,
+    "descripcion": "Camisa formal blanca de algodón.",
+    "imagen": "assets/img/camisa.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pantalones de Traje Slim Fit",
+    "precio": 79.99,
+    "descripcion": "Pantalones de traje slim fit para hombres.",
+    "imagen": "assets/img/pantalones.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Chaqueta Formal Negra",
+    "precio": 129.99,
+    "descripcion": "Chaqueta formal negra elegante para hombres.",
+    "imagen": "assets/img/chaqueta.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Corbata de Seda",
+    "precio": 29.99,
+    "descripcion": "Corbata de seda elegante para ocasiones especiales.",
+    "imagen": "assets/img/corbata.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatos de Vestir",
+    "precio": 99.99,
+    "descripcion": "Zapatos de vestir de cuero para hombres.",
+    "imagen": "assets/img/zapatos.jpg"
+  }
+]
