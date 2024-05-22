@@ -1,0 +1,4 @@
+2024-05-15 16:35:37.804178+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]ADDED_TO_PLATFORM_DATE_TIME"; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "[*]ADDED_TO_PLATFORM_DATE_TIME"; expected "ALTER, ANALYZE"; SQL statement:
+ADDED_TO_PLATFORM_DATE_TIME [42001-224]

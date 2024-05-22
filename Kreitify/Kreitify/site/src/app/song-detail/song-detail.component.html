@@ -1,0 +1,12 @@
+<div *ngIf="song">
+    <h2>Detalles de la Canción:</h2>
+    <p><strong>ID:</strong> {{ song.id }}</p>
+    <p><strong>Título:</strong> {{ song.title }}</p>
+    <p><strong>Artista:</strong> {{ song.artist }}</p>
+    <p><strong>Género:</strong> {{ song.genre }}</p>
+    <p><strong>Duración:</strong> {{ song.duration }} segundos</p>
+    <p><strong>Reproducciones:</strong> {{ song.playCount }}</p>
+    <p><strong>Fecha de Publicación:</strong> {{ song.publicationDate }}</p>
+    <p><strong>Añadido a la Plataforma:</strong> {{ song.addedToPlatformDateTime }}</p>
+    <p><strong>Álbum:</strong> {{ song.album ? song.album : 'N/A' }}</p>
+  </div>
